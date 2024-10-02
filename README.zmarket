@@ -1,0 +1,50 @@
+ZenMarket E-Commerce Website
+
+ZenMarket is a modern e-commerce shopping cart application built using Flask. The platform offers a variety of products across different categories, including electronics and accessories. The design is responsive and utilizes a carefully selected color palette to create an elegant user experience.
+
+
+## Features
+
+- User-friendly interface
+- Search functionality
+- Responsive design for mobile and desktop
+- Dynamic product listings with descriptions and images
+- Elegant color palette to enhance branding
+
+## Technologies Used
+
+- Python
+- Flask
+- HTML/CSS
+- JavaScript (optional for future enhancements)
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Flask
+
+### Installation
+
+1. Clone the repository:
+
+   ``bash
+   git clone <repository-url>
+   cd E-Commerce
+
+   Install the required packages:
+pip install Flask
+
+Run the application:
+python app.py
+
+Open your browser and navigate to:
+http://127.0.0.1:5000/
+
+Customization
+To change the products, update the products list in app.py.
+Modify the styles in static/style.css to match your branding.
+Add new images in the static/images directory and update the paths accordingly.
+Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
