@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="main-banner">
+    <img src="https://i.ibb.co/JRsVSqg/banner.png" alt="Deals Live Now">
+</section>
+
+<section class="product-section">
+    <h2>Up to 80% off | Electronics & Accessories</h2>
+    <div class="product-grid">
+        {% for product in products %}
+        <div class="product-card">
+            <a href="{{ url_for('product_detail', product_name=product.name) }}">
+                <img src="{{ url_for('static', filename='images/' + product.image) }}" alt="{{ product.name }}">
+                <p>{{ product.name }}</p>
+                <p>{{ product.price }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
